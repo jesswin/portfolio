@@ -1,0 +1,94 @@
+.numbers {
+  position: absolute;
+}
+
+.numbers div {
+  color: rgb(162, 162, 162);
+  font-size: 12px;
+  margin: 12px;
+  width: calc(100% - 24px);
+  box-sizing: border-box;
+}
+
+.name {
+  color: rgb(240, 189, 93);
+}
+.years {
+  color: rgb(225, 111, 111);
+}
+.special {
+  color: #9767a4;
+}
+.complex {
+  color: rgb(240, 189, 93);
+}
+.business {
+  color: rgb(76, 143, 229);
+}
+.intro {
+  color: rgb(76, 143, 229);
+}
+
+.line {
+  margin: 12px 16px;
+  margin-right: 0;
+}
+
+.line1,
+.line7 {
+  margin: 12px 20px;
+  margin-right: 0;
+}
+
+.line2,
+.line6 {
+  margin: 12px 28px;
+  margin-right: 0;
+}
+
+.line3,
+.line5 {
+  margin: 12px 32px;
+  margin-right: 0;
+}
+.line4 {
+  margin: 12px 38px;
+  margin-right: 0;
+}
+
+.about-wrapper {
+  font-size: 12px;
+  margin: 12px 32px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: row;
+}
+
+.my-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 88px;
+  color: rgb(240, 189, 93);
+}
+.comment {
+  color: #9767a4;
+  font-size: 44px;
+  width: 470px;
+}
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .about-wrapper {
+    grid-template-columns: unset;
+  }
+  .my-tag {
+    font-size: 48px;
+    margin-top: 52px;
+    align-items: center;
+  }
+  .comment{
+    font-size: 24px;
+    width: 240px;
+  }
+}
