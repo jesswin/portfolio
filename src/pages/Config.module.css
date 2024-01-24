@@ -4,7 +4,7 @@
 
 .numbers div {
   color: rgb(162, 162, 162);
-  font-size: 12px;
+  font-size: 14px;
   margin: 12px;
   width: calc(100% - 24px);
   box-sizing: border-box;
@@ -57,7 +57,7 @@
 }
 
 .about-wrapper {
-  font-size: 12px;
+  font-size: 14px;
   margin: 12px 32px;
   display: grid;
   grid-template-columns: 50% 50%;
