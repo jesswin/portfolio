@@ -2,12 +2,12 @@ import classes from "./Skills.module.css";
 
 const skills = [
   {
-    skill: "HTML",
+    skill: "html",
     rating: 9,
   },
 
   {
-    skill: "CSS",
+    skill: "css",
     rating: 9,
   },
 
@@ -17,26 +17,26 @@ const skills = [
   },
 
   {
-    skill: "React",
+    skill: "react",
     rating: 8,
   },
 
   {
-    skill: "Vue",
+    skill: "vue",
     rating: 8,
   },
 
   {
-    skill: "Nuxt",
+    skill: "nuxt",
     rating: 7,
   },
 
   {
-    skill: "Flutter",
+    skill: "flutter",
     rating: 6,
   },
   {
-    skill: "Git",
+    skill: "git",
     rating: 6,
   },
 ];

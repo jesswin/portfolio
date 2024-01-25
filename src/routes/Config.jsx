@@ -43,7 +43,7 @@ export default function Config() {
             <div> {" Chetnani/>"}</div>
           </div>
           <div className={classes.comment}>
-            // Web and Mobile App Developer
+            // web and mobile app developer
           </div>
         </div>
       </div>
