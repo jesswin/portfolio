@@ -42,7 +42,7 @@ export default function Header() {
             <div
               key={tab.route}
               className={`${classes.tab} ${
-                tab.route == "my-config" ? classes.active : ""
+                tab.route == "skills" ? classes.active : ""
               }`}
             >
               {tab.text}

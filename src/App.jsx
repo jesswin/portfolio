@@ -1,5 +1,6 @@
 import Header from "./components/Header";
-import Config from "./pages/Config";
+import Config from "./routes/Config";
+import Skills from "./routes/Skills";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/my-config",
     element: <Config />,
+  },
+  {
+    path: "/skills",
+    element: <Skills />,
   },
 ]);
 

@@ -10,7 +10,8 @@
   box-sizing: border-box;
 }
 
-.name {
+.name,
+.complex {
   color: rgb(240, 189, 93);
 }
 .years {
@@ -19,12 +20,8 @@
 .special {
   color: #9767a4;
 }
-.complex {
-  color: rgb(240, 189, 93);
-}
-.business {
-  color: rgb(76, 143, 229);
-}
+
+.business,
 .intro {
   color: rgb(76, 143, 229);
 }
@@ -87,7 +84,7 @@
     margin-top: 52px;
     align-items: center;
   }
-  .comment{
+  .comment {
     font-size: 24px;
     width: 240px;
   }

@@ -1,0 +1,21 @@
+.skills {
+  font-size: 14px;
+  width: 100%;
+  margin: 60px auto 0;
+  max-width: calc((30px * 10) + 50px);
+}
+.skill {
+  width: calc((30px * 10) + 50px);
+  background-color: #141415;
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.skill-indi {
+  height: 30px;
+  width: 30px;
+  background-color: #9767a4;
+}

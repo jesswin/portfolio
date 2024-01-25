@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   display: flex;
+  z-index: 99;
 }
 
 .dots {
@@ -56,6 +57,10 @@
   position: relative;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+.active{
+  color: #fff;
 }
 
 .active::before {
