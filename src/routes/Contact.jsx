@@ -14,7 +14,7 @@ function gotoMail(mail) {
 const social = [
   {
     platform: "linkedin",
-    url: "https://www.linkedin.com/in/jesswin-chetnani-249a461a6/",
+    url: "https://www.linkedin.com/in/jesswin-chetnani-249a461a6",
   },
   {
     platform: "gmail",
@@ -22,7 +22,7 @@ const social = [
   },
   {
     platform: "instagram",
-    url: "https://www.instagram.com/jesswinchetnani/",
+    url: "https://www.instagram.com/jesswinchetnani",
   },
 ];
 
