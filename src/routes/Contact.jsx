@@ -57,7 +57,7 @@ export default function Contact() {
     <div className={classes.contact}>
       <div className={classes.touch}>{"/* get_in_touch */"}</div>
       <div className={classes.title}>
-        got something on your mind? jesswin is just a call or text away.
+        got something on your mind? jesswin is just a dm away.
       </div>
       <div className={classes.const}> {"const socials = ["}</div>
       <div className={classes.links}> {links} </div>
