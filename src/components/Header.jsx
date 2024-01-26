@@ -10,7 +10,7 @@ export default function Header() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if(location.pathname == '/'){
+    if (location.pathname == "/") {
       navigate("/my-config");
     }
   }, []);
@@ -25,11 +25,11 @@ export default function Header() {
       route: "/skills",
     },
     {
-      text: "experience.jsx",
+      text: "experience.md",
       route: "/experience",
     },
     {
-      text: "contact.jsx",
+      text: "contact.js",
       route: "/contact",
     },
   ];

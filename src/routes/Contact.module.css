@@ -1,0 +1,84 @@
+.contact {
+  font-size: 14px;
+  color: grey;
+  margin: 12px;
+}
+
+.touch {
+  font-size: 18px;
+  width: 100%;
+  color: #568956;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.title {
+  display: inline-block;
+  color: white;
+
+  background: #acacac -webkit-gradient(linear, 100% 0, 0 0, from(#acacac), color-stop(0.5, #ffffff), to(#acacac));
+  background-position: -4rem top; /*50px*/
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation-name: shimmer;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-background-size: 20rem 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -4rem top; /*50px*/
+  }
+
+  70% {
+    background-position: 12.5rem top; /*200px*/
+  }
+
+  100% {
+    background-position: 12.5rem top; /*200px*/
+  }
+}
+
+.starting,
+.ending {
+  margin: 8px 0;
+}
+
+.links {
+  margin: 10px 50px;
+}
+
+.platform,
+.url {
+  margin: 10px 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.plat-text {
+  color: rgb(76, 143, 229);
+}
+
+.url-text {
+  color: rgb(225, 111, 111);
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    margin: 10px;
+  }
+  .title {
+    -webkit-background-size: 10rem 100%; /*50px*/
+  }
+}
