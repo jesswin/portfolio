@@ -7,7 +7,7 @@ export default function Experience() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate("/experience/company");
+    navigate("/experience/industry");
   }, []);
 
   const links = (
@@ -18,11 +18,11 @@ export default function Experience() {
       >
         <Link
           className={
-            location.pathname.includes("company") ? classes.active : ""
+            location.pathname.includes("industry") ? classes.active : ""
           }
-          to="/experience/company"
+          to="/experience/industry"
         >
-          company
+          industry
         </Link>
       </div>
       <div
