@@ -13,8 +13,8 @@ export default function Header() {
       route: "skills",
     },
     {
-      text: "projects.jsx",
-      route: "projects",
+      text: "experience.jsx",
+      route: "experience",
     },
     {
       text: "contact.jsx",

@@ -1,0 +1,59 @@
+.experience {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+.sidebar {
+  background-color: #141415;
+  padding: 10px;
+  height: 100%;
+}
+
+.proj-exp {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: grey;
+  margin-top: 20px;
+}
+
+.company-text,
+.project-text {
+  cursor: pointer;
+}
+.active {
+  color: #fff;
+}
+
+.top-bar {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .top-bar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: 40px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .sidebar {
+    display: none;
+  }
+  .experience {
+    grid-template-columns: unset;
+    grid-auto-flow: row;
+  }
+  .active {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .company-text,
+  .project-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
