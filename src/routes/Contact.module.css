@@ -22,7 +22,6 @@
 }
 
 .title {
-  display: inline-block;
   color: white;
 
   background: #acacac -webkit-gradient(linear, 100% 0, 0 0, from(#acacac), color-stop(0.5, #ffffff), to(#acacac));
@@ -33,7 +32,7 @@
   -webkit-animation-name: shimmer;
   -webkit-animation-duration: 2.5s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-background-size: 20rem 100%;
+  -webkit-background-size: 40rem 100%;
 }
 
 @keyframes shimmer {

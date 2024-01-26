@@ -28,7 +28,7 @@ const social = [
 
 let links = social.map((social) => {
   return (
-    <div className={classes.social}>
+    <div className={classes.social} key={social.platform}>
       <div className={classes.starting}>{"{"}</div>
       <div className={classes.platform}>
         {"platform : "}{" "}
