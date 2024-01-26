@@ -5,7 +5,9 @@ export default function Config() {
     <>
       <div className={classes.numbers}>
         {Array.from({ length: 11 }, (_, index) => (
-          <div key={index}>{++index}</div>
+          <div className={index == 1 ? classes.active : ""} key={index}>
+            {++index}
+          </div>
         ))}
       </div>
 
@@ -13,7 +15,7 @@ export default function Config() {
         <div className={classes.about}>
           <div className={classes.intro}>{"<intro>"}</div>
           <div className={`${classes.line1} ${classes.line}`}>
-            hi, i'm <span className={classes.name}>{'{ jesswin() }'}</span>,
+            hi, i'm <span className={classes.name}>{"{ jesswin() }"}</span>,
           </div>
           <div className={`${classes.line2} ${classes.line}`}>
             experienced <span className={classes.years}> 2-year </span>{" "}
@@ -38,13 +40,11 @@ export default function Config() {
           <div className={classes.intro}>{"<intro>"}</div>
         </div>
         <div className={classes["my-tag"]}>
-          <div>
+          <div className={classes.jesswin}>
             <div>{"<Jesswin"} </div>
             <div> {" Chetnani/>"}</div>
           </div>
-          <div className={classes.comment}>
-            // web and mobile app developer
-          </div>
+          <div className={classes.comment}>// web and mobile app developer</div>
         </div>
       </div>
     </>
