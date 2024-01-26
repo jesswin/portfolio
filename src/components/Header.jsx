@@ -1,10 +1,17 @@
-import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import classes from "./Header.module.css";
+import { useEffect } from "react";
 
 export default function Header() {
   const colors = ["red", "yellow", "green"];
 
   const location = useLocation();
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate("/my-config");
+  }, []);
 
   const tabs = [
     {
