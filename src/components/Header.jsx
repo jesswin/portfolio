@@ -10,7 +10,9 @@ export default function Header() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate("/my-config");
+    if(location.pathname == '/'){
+      navigate("/my-config");
+    }
   }, []);
 
   const tabs = [

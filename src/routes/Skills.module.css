@@ -14,8 +14,68 @@
   padding: 5px;
 }
 
+.skill-parent:first-child {
+  animation: fade 0.5s forwards;
+  transition: all;
+  opacity: 0;
+}
+.skill-parent:nth-of-type(2) {
+  animation: fade 0.5s forwards 0.5s;
+  transition: all;
+  opacity: 0;
+}
+.skill-parent:nth-of-type(3) {
+  animation: fade 0.5s forwards 1s;
+  transition: all;
+  opacity: 0;
+}
+.skill-parent:nth-of-type(4) {
+  animation: fade 0.5s forwards 1.5s;
+  transition: all;
+  opacity: 0;
+}
+.skill-parent:nth-of-type(5) {
+  animation: fade 0.5s forwards 2s;
+  transition: all;
+  opacity: 0;
+}
+.skill-parent:nth-of-type(6) {
+  animation: fade 0.5s forwards 2.5s;
+  transition: all;
+  opacity: 0;
+}
+.skill-parent:nth-of-type(7) {
+  animation: fade 0.5s forwards 3s;
+  transition: all;
+  opacity: 0;
+}
+.skill-parent:nth-of-type(8) {
+  animation: fade 0.5s forwards 3.5s;
+  transition: all;
+  opacity: 0;
+}
+
 .skill-indi {
   height: 30px;
   width: 30px;
   background-color: #9767a4;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

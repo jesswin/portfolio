@@ -44,9 +44,12 @@ const skills = [
 export default function Skills() {
   return (
     <div className={classes.skills}>
-      {skills.map((skill) => {
+      {skills.map((skill, index) => {
         return (
-          <div key={skill.skill}>
+          <div
+            key={skill.skill}
+            className={`${classes["skill-parent"]}`}
+          >
             {skill.skill}
             <div className={classes.skill}>
               {Array.from({ length: skill.rating }, (_, index) => (
