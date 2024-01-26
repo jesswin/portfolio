@@ -2,20 +2,9 @@ import classes from "./Skills.module.css";
 
 const skills = [
   {
-    skill: "html",
-    rating: 9,
-  },
-
-  {
-    skill: "css",
-    rating: 9,
-  },
-
-  {
     skill: "javascript",
     rating: 8,
   },
-
   {
     skill: "react",
     rating: 8,
@@ -30,13 +19,22 @@ const skills = [
     skill: "nuxt",
     rating: 7,
   },
-
   {
-    skill: "flutter",
+    skill: "git",
     rating: 6,
   },
   {
-    skill: "git",
+    skill: "html",
+    rating: 9,
+  },
+
+  {
+    skill: "css",
+    rating: 9,
+  },
+
+  {
+    skill: "flutter",
     rating: 6,
   },
 ];
@@ -46,10 +44,7 @@ export default function Skills() {
     <div className={classes.skills}>
       {skills.map((skill, index) => {
         return (
-          <div
-            key={skill.skill}
-            className={`${classes["skill-parent"]}`}
-          >
+          <div key={skill.skill} className={`${classes["skill-parent"]}`}>
             {skill.skill}
             <div className={classes.skill}>
               {Array.from({ length: skill.rating }, (_, index) => (
