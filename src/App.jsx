@@ -1,3 +1,4 @@
+import Comapany from "./components/Company";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <Projects />,
+      },
+      {
+        path: "company",
+        element: <Comapany />,
       },
     ],
   },

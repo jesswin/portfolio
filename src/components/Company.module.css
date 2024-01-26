@@ -1,0 +1,50 @@
+.company {
+  width: 60%;
+  margin: 10px auto;
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.hypd-position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  margin: 10px 0;
+
+  color: #9767a4;
+}
+
+.time {
+  color: rgb(240, 189, 93);
+}
+
+.links img {
+  height: 15px;
+  width: 15px;
+}
+
+.store,
+.dashboard {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(225, 111, 111);
+}
+
+.tasks {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .company {
+    width: calc(100% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+  }
+}
