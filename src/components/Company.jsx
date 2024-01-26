@@ -40,10 +40,10 @@ export default function Comapany() {
       <div className={classes.links}>
         <div
           className={classes.store}
-          onClick={() => gotoLink("https://hypd.store/")}
+          onClick={() => gotoLink("https://hypd.store")}
         >
           <img src={link} alt="" />
-          <span> https://hypd.store/ </span>
+          <span> https://hypd.store </span>
         </div>
         <div
           className={classes.dashboard}
