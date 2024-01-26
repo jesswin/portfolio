@@ -14,7 +14,6 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  color: grey;
   margin-top: 20px;
 }
 
@@ -22,13 +21,20 @@
 .project-text {
   cursor: pointer;
 }
-.active {
-  color: #fff;
-}
 
 .top-bar {
   display: none;
 }
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+a.active,
+a.active {
+  color: #fff !important;
+}
+
 @media screen and (max-width: 600px) {
   .top-bar {
     display: grid;
@@ -45,15 +51,17 @@
     grid-template-columns: unset;
     grid-auto-flow: row;
   }
-  .active {
-    color: #fff;
-    border-bottom: 1px solid #fff;
+  a.active,
+  a.active {
+    color: #fff !important;
   }
+
   .company-text,
   .project-text {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: grey;
   }
 }

@@ -11,27 +11,29 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Config />,
-  },
-  {
-    path: "/my-config",
-    element: <Config />,
-  },
-  {
-    path: "/skills",
-    element: <Skills />,
-  },
-  {
-    path: "/experience",
-    element: <Experience />,
+    element: <Header />,
     children: [
       {
-        path: "projects",
-        element: <Projects />,
+        path: "/my-config",
+        element: <Config />,
       },
       {
-        path: "company",
-        element: <Comapany />,
+        path: "/skills",
+        element: <Skills />,
+      },
+      {
+        path: "/experience",
+        element: <Experience />,
+        children: [
+          {
+            path: "projects",
+            element: <Projects />,
+          },
+          {
+            path: "company",
+            element: <Comapany />,
+          },
+        ],
       },
     ],
   },
@@ -40,7 +42,6 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <Header />
       <RouterProvider router={router} />
     </>
   );

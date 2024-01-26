@@ -1,24 +1,27 @@
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 import classes from "./Header.module.css";
 
 export default function Header() {
   const colors = ["red", "yellow", "green"];
 
+  const location = useLocation();
+
   const tabs = [
     {
       text: "myConfig.jsx",
-      route: "my-config",
+      route: "/my-config",
     },
     {
       text: "skills.js",
-      route: "skills",
+      route: "/skills",
     },
     {
       text: "experience.jsx",
-      route: "experience",
+      route: "/experience",
     },
     {
       text: "contact.jsx",
-      route: "contact",
+      route: "/contact",
     },
   ];
   return (
@@ -32,24 +35,29 @@ export default function Header() {
           })}
 
           <span className={classes.title}>
-             ~ frontend_dev / jesswin_chetnani
+            ~ frontend_dev / jesswin_chetnani
           </span>
         </div>
       </div>
       <div className={classes["tab-wrapper"]}>
         {tabs.map((tab) => {
           return (
-            <div
-              key={tab.route}
-              className={`${classes.tab} ${
-                tab.route == "skills" ? classes.active : ""
-              }`}
-            >
-              {tab.text}
+            <div className={classes.tab} key={tab.route}>
+              <NavLink
+                to={tab.route}
+                className={
+                  location.pathname.includes(tab.route)
+                    ? classes.active
+                    : undefined
+                }
+              >
+                <div>{tab.text}</div>
+              </NavLink>
             </div>
           );
         })}
       </div>
+      <Outlet />
     </>
   );
 }

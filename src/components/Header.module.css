@@ -44,12 +44,11 @@
   box-sizing: border-box;
 }
 
-.tab-wrapper::-webkit-scrollbar{
+.tab-wrapper::-webkit-scrollbar {
   display: none;
 }
 
 .tab {
-  color: grey;
   padding: 10px 16px;
   border-right: 3px solid #202021;
   font-size: 12px;
@@ -59,7 +58,12 @@
   cursor: pointer;
 }
 
-.active{
+.tab a {
+  color: grey;
+  text-decoration: none;
+}
+
+a.active {
   color: #fff;
 }
 
@@ -69,11 +73,11 @@
   width: 100%;
   height: 3px;
   background-color: rgb(27, 109, 217);
-  border-radius: 1.5px ;
+  border-radius: 1.5px;
   top: 0px;
   left: 0;
 }
 
-.title{
+.title {
   font-size: 13px;
 }
