@@ -47,7 +47,7 @@ export default function Projects() {
               <div className={classes.title}>//{proj.title}</div>
               {proj.link && (
                 <div className={classes.iframe}>
-                  <iframe src={proj?.link} frameBorder="0"></iframe>
+                  <iframe sandbox="allow-scripts allow-forms allow-pointer-lock allow-same-origin" src={proj?.link} frameBorder="0"></iframe>
                 </div>
               )}
               <div className={classes.desc}>

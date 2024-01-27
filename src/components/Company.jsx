@@ -7,7 +7,7 @@ const tasks = [
     greatly simplifying the brand team's workflow. (internal content
     management tool)`,
   "Transformed catalog uploading for the brand team by introducing Excel sheet uploads, significantly reducing manual effort and a remarkable time- saving impact. (internal content management tool)",
-  `Successfully achieved an impressive 80-90% reduction in loading time for the internal tool, significantly enhancing its efficiency and user experience. (internal content management tool)`,
+  `Successfully achieved an impressive 87% reduction in loading time for the internal tool, significantly enhancing its efficiency and user experience. (internal content management tool)`,
   `Delivered a compelling sales page in just 24 hours during a festive season, driving an outstanding 31% surge in sales and elevating the click-through rate (CTR) by a remarkable 26.5%. (E-commerce)`,
   `Initiated the adoption of Vuex central state management, cutting down on unnecessary API calls (10-12%) during app navigation, resulting in an improved user experience and elevated code quality throughout the project. (E-commerce)`,
   `Introduced the 'Buy X Get Y' (BxGy) coupon type, leading to a significant 40- 50% rise in average order value (AOV) and, consequently, a strong boost in sales. (E-commerce)`,

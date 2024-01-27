@@ -47,7 +47,7 @@ let links = social.map((social) => {
           {social.url}
         </span>
       </div>
-      <div className={classes.closing}> {"}"}</div>
+      <div className={classes.closing}> {"},"}</div>
     </div>
   );
 });
