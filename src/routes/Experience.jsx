@@ -8,6 +8,12 @@ export default function Experience() {
 
   useEffect(() => {
     navigate("/experience/industry");
+
+    if (window.innerWidth > 600) {
+      setTimeout(() => {
+        alert("you can switch to projects tab from left");
+      }, 1000);
+    }
   }, []);
 
   const links = (
