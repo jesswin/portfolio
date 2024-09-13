@@ -18,7 +18,7 @@ export default function Config() {
             hi, i'm <span className={classes.name}>{"{ jesswin() }"}</span>,
           </div>
           <div className={`${classes.line2} ${classes.line}`}>
-            experienced <span className={classes.years}> 2-year </span>{" "}
+            experienced <span className={classes.years}> 2.5+ years </span>{" "}
             front-end specialist with
           </div>
           <div className={`${classes.line3} ${classes.line}`}>

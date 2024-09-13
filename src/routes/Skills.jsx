@@ -39,7 +39,7 @@ const skills = [
 
   {
     skill: "flutter",
-    rating: 6,
+    rating: 5,
   },
 ];
 
