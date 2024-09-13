@@ -54,6 +54,11 @@
   transition: all;
   opacity: 0;
 }
+.skill-parent:nth-of-type(9) {
+  animation: fade 0.5s forwards 4s;
+  transition: all;
+  opacity: 0;
+}
 
 .skill-indi {
   height: 30px;

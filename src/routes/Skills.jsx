@@ -9,6 +9,10 @@ const skills = [
     skill: "react",
     rating: 8,
   },
+  {
+    skill: "Ant Design, Material UI",
+    rating: 7,
+  },
 
   {
     skill: "vue",
